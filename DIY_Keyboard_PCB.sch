@@ -4635,9 +4635,9 @@ Connection ~ 1400 5500
 Wire Wire Line
 	1400 5500 1050 5500
 Wire Wire Line
-	1600 5000 1600 3950
+	1600 5000 1600 4250
 Wire Wire Line
-	2350 5000 2350 3950
+	2350 5000 2350 4250
 Text GLabel 1050 4750 0    50   Input ~ 0
 ROW0
 Text GLabel 1050 5500 0    50   Input ~ 0
@@ -4646,4 +4646,22 @@ Text GLabel 1600 3950 1    50   Input ~ 0
 COL0
 Text GLabel 2350 3950 1    50   Input ~ 0
 COL1
+Wire Wire Line
+	1550 4250 1600 4250
+Connection ~ 1600 4250
+Wire Wire Line
+	1600 4250 1600 3950
+Wire Wire Line
+	2300 4250 2350 4250
+Connection ~ 2350 4250
+Wire Wire Line
+	2350 4250 2350 3950
+Text GLabel 6400 3700 2    50   Input ~ 0
+ROW0
+Text GLabel 6400 2400 2    50   Input ~ 0
+ROW1
+Text GLabel 6400 3800 2    50   Input ~ 0
+COL1
+Text GLabel 6400 2300 2    50   Input ~ 0
+COL0
 $EndSCHEMATC
